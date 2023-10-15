@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="popup">
+      <img src="images/check-popup.svg" class="popup__check-img" />
+      <div class="popup__content">
+        <div class="popup__content-title">Request Submit Successfully</div>
+        <div class="popup__content-descr">
+          Your request for villa site visit is submitted successfully
+        </div>
+        <button class="popup__content-btn">Done</button>
+      </div>
+    </div>
+    <div class="popup-background"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__items">
+          <a href="index.html" class="header__logo-inner">
+            <img src="images/logo.svg" alt="logo" class="header__logo" />
+          </a>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="index.html" class="header__menu-item--li">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="about.html" class="header__menu-item--li">About Us</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="properties.html" class="header__menu-item--li"
+                >Properties</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a href="agents.html" class="header__menu-item--li">Agents</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="contacts.html" class="header__menu-item--li"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <div class="header__burger-button">
+            <span class="header__burger-button_lines"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="contacts">
+      <h1 class="contacts__title">Contact Us</h1>
+    </section>
+    <section class="contacts__items">
+      <div class="container">
+        <div class="contacts__items-inner">
+          <div class="contacts__info">
+            <h2 class="contacts__info-title">Get in Touch</h2>
+            <p class="contacts__info-descr">
+              Ready to make a move? Contact us today and let's get started.
+            </p>
+            <div class="contacts__item">
+              <div class="contacts__item-inner">
+                <img
+                  src="images/location-contacts.svg"
+                  alt="map"
+                  class="contacts__item-img"
+                />
+                <div class="contacts__item-info">
+                  <div class="contacts__item-info__title">Location</div>
+                  <a href="#" class="contacts__item-info__descr">
+                    4140 Parker Rd. Allentown, New Mexico 31134
+                  </a>
+                </div>
+              </div>
+              <div class="contacts__item-info-stick"></div>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__item-inner">
+                <img
+                  src="images/phone.svg"
+                  alt="map"
+                  class="contacts__item-img"
+                />
+                <div class="contacts__item-info">
+                  <div class="contacts__item-info__title">Phone Number</div>
+                  <a href="tel:+3195550115" class="contacts__item-info__descr"
+                    >(319) 555-0115</a
+                  >
+                </div>
+              </div>
+              <div class="contacts__item-info-stick"></div>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__item-inner">
+                <img
+                  src="images/subscribe-icon.svg"
+                  alt="map"
+                  class="contacts__item-img"
+                />
+                <div class="contacts__item-info">
+                  <div class="contacts__item-info__title">Follow Us</div>
+                  <ul class="contacts__item-info__list">
+                    <li class="contacts__item-info__li">
+                      <a href="#" class="contacts__item-info__li--link">
+                        <img
+                          src="images/contacts-facebook.svg"
+                          alt="facebook"
+                          class="contacts__item-info__li-img"
+                        />
+                      </a>
+                    </li>
+                    <li class="contacts__item-info__li">
+                      <a href="#" class="contacts__item-info__li--link">
+                        <img
+                          src="images/contacts-inst.svg"
+                          alt="inst"
+                          class="contacts__item-info__li-img"
+                        />
+                      </a>
+                    </li>
+                    <li class="contacts__item-info__li">
+                      <a href="#" class="contacts__item-info__li--link">
+                        <img
+                          src="images/contacts-twiter.svg"
+                          alt="twiter"
+                          class="contacts__item-info__li-img"
+                        />
+                      </a>
+                    </li>
+                    <li class="contacts__item-info__li">
+                      <a href="#" class="contacts__item-info__li--link">
+                        <img
+                          src="images/contacts-linkedln.svg"
+                          alt="linkedin"
+                          class="contacts__item-info__li-img"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="contacts__item-info-stick"></div>
+            </div>
+          </div>
+          <div class="contacts__items-stick"></div>
+          <form action="#" class="contacts__form" id="form1">
+            <div class="contacts__form-item">
+              <label for="#" class="contacts__form-label">Name</label>
+              <input
+                type="text"
+                id="username"
+                class="contacts__form-input"
+                placeholder="Enter Your Name"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="contacts__form-item">
+              <label for="#" class="contacts__form-label">Email</label>
+              <input
+                type="text"
+                id="email"
+                class="contacts__form-input"
+                placeholder="Enter Your Email"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="contacts__form-item">
+              <label for="#" class="contacts__form-label">Phone Number</label>
+              <input
+                type="text"
+                id="phone"
+                class="contacts__form-input"
+                placeholder="Enter Phone Number"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="contacts__form-item">
+              <label for="#" class="contacts__form-label">Message</label>
+              <textarea
+                cols="30"
+                rows="10"
+                class="contacts__form-textarea"
+                placeholder="Enter Your Message"
+              ></textarea>
+            </div>
+            <button class="contacts__form-btn">Send Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__items">
+          <div class="footer__logo-info">
+            <img src="images/footer-logo.svg" alt="logo" class="footer__logo" />
+            <p class="footer__logo-descr">
+              Discover Your Dream Home: Browse Our Exclusive Real Estate
+              Listings for Your Ideal Property!
+            </p>
+          </div>
+          <div class="footer__info-items">
+            <div class="footer__info-item">
+              <div class="footer__info-title">About</div>
+              <ul class="footer__info-list">
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">About Us</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">Blog</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">Agents</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >New Property</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info-item">
+              <div class="footer__info-title">Service</div>
+              <ul class="footer__info-list">
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >Payment & Tax</a
+                  >
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">Features</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >View Booking</a
+                  >
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info-item">
+              <div class="footer__info-title">Our Location</div>
+              <p class="footer__info-locations">
+                2972 Westheimer Rd. Santa Ana, Illinois 85486
+              </p>
+              <div class="footer__info-socials">
+                <a href="#" class="footer__info-social--link"
+                  ><img
+                    src="images/facebook.svg"
+                    alt="facebook"
+                    class="footer__info-social"
+                /></a>
+                <a href="#" class="footer__info-social--link">
+                  <img
+                    src="images/twiter.svg"
+                    alt="twiter"
+                    class="footer__info-social"
+                /></a>
+                <a href="#" class="footer__info-social--link">
+                  <img src="images/in.svg" alt="in" class="footer__info-social"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright-info">
+            Copyright 2022 flora. All Rights Reserved
+          </p>
+          <div class="footer__copyright-links">
+            <a class="footer__copyright-link" href="#">Terms & Conditions</a>
+            <a class="footer__copyright-link" href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/nouislider.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Propeties</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__items">
+            <a href="index.html" class="header__logo-inner">
+              <img src="images/logo.svg" alt="logo" class="header__logo" />
+            </a>
+            <ul class="header__menu">
+              <li class="header__menu-item">
+                <a href="index.html" class="header__menu-item--li">Home</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="about.html" class="header__menu-item--li">About Us</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="properties.html" class="header__menu-item--li"
+                  >Properties</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a href="agents.html" class="header__menu-item--li">Agents</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="contacts.html" class="header__menu-item--li"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="header__burger-button">
+              <span class="header__burger-button_lines"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="properties">
+        <div class="container">
+          <div class="properties__wrapp">
+            <div class="properties__filter-inner_items">
+              <div class="properties__filter-inner">
+                <img
+                  src="images/filter.svg"
+                  class="properties__filter-btn_img"
+                />
+                Filter
+              </div>
+              <div class="properties__select-items">
+                <div class="properties__select-title">
+                  Shot by Price:
+                  <span class="properties__select-value">Low to High</span>
+                  <div class="properties__filter-btn"></div>
+                </div>
+                <ul
+                  class="properties__select-options properties__select-options-none"
+                >
+                  <li class="properties__select-option">High to Low</li>
+                </ul>
+              </div>
+            </div>
+            <div class="properties__items">
+              <div class="properties__filter">
+                <div class="properties__filter-btn properties__btn-close"></div>
+                <div class="properties__filter-item">
+                  <div class="properties__filter-item--hidden">
+                    <div class="properties__filter-title">Select Location</div>
+                    <div class="properties__filter-btn"></div>
+                  </div>
+                  <div
+                    class="properties__filter-item--visible properties__filter-locations__inner"
+                  >
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-locations"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      California
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-locations"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Miami
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-locations"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      New Jersey
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-locations"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      New York
+                    </label>
+                  </div>
+                </div>
+                <div class="properties__filter-item">
+                  <div class="properties__filter-item--hidden">
+                    <div class="properties__filter-title">Property Type</div>
+                    <div class="properties__filter-btn"></div>
+                  </div>
+                  <div
+                    class="properties__filter-item--visible properties__filter-type__inner"
+                  >
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-type"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Buy
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-type"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Rent
+                    </label>
+                  </div>
+                </div>
+                <div class="properties__filter-item">
+                  <div class="properties__filter-item--hidden">
+                    <div class="properties__filter-title">Categories</div>
+                    <div class="properties__filter-btn"></div>
+                  </div>
+                  <div
+                    class="properties__filter-item--visible properties__filter-categories__inner"
+                  >
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-categories"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Apartment
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-categories"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Villa
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-categories"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Duplex
+                    </label>
+                    <label
+                      class="properties__filter-item--visible__item properties__filter-categories"
+                    >
+                      <input class="check-box" type="checkbox" />
+                      <span class="check-box__custom"></span>
+                      Houses
+                    </label>
+                  </div>
+                </div>
+                <div class="properties__filter-item">
+                  <div class="properties__filter-item--hidden">
+                    <div class="properties__filter-title">Price Range</div>
+                    <div class="properties__filter-btn"></div>
+                  </div>
+                  <ul class="properties__filter-item--visible">
+                    <div class="properties__filter-item--label">
+                      Price: $
+                      <span class="properties__filter-item--label__from"
+                        >10000</span
+                      >
+                      - $
+                      <span class="properties__filter-item--label__to"
+                        >30000</span
+                      >
+                    </div>
+                    <div class="properties__filter-item--range"></div>
+                  </ul>
+                </div>
+                <div class="properties__filter-item">
+                  <div class="properties__filter-item--hidden">
+                    <div class="properties__filter-title">Rooms</div>
+                    <div class="properties__filter-btn"></div>
+                  </div>
+                  <div class="properties__filter-item--visible__items">
+                    <div
+                      class="properties__filter-item--visible properties__filter-bedrooms__inner"
+                    >
+                      <div class="properties__filter-item--label">Bedroom</div>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bedroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        1
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bedroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        2
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bedroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        3
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bedroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        4
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bedroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        5
+                      </label>
+                    </div>
+                    <div
+                      class="properties__filter-item--visible properties__filter-item--visible__bathroom"
+                    >
+                      <div class="properties__filter-item--label">Bathroom</div>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bathroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        1
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bathroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        2
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bathroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        3
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bathroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        4
+                      </label>
+                      <label
+                        class="properties__filter-item--visible__item properties__filter-bathroom"
+                      >
+                        <input class="check-box" type="checkbox" />
+                        <span class="check-box__custom"></span>
+                        5
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="properties__gallery">
+                <div class="properties__gallery-MatchMessage">
+                  No match found
+                </div>
+                <div class="properties__products-container"></div>
+                <div class="properties__pagination-container">
+                  <div class="properties__pagination-bullets"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__items">
+            <div class="footer__logo-info">
+              <img
+                src="images/footer-logo.svg"
+                alt="logo"
+                class="footer__logo"
+              />
+              <p class="footer__logo-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Imperdiet tempus felis vitae sit est quisque.
+              </p>
+            </div>
+            <div class="footer__info-items">
+              <div class="footer__info-item">
+                <div class="footer__info-title">About</div>
+                <ul class="footer__info-list">
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link">Blog</a>
+                  </li>
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link">Agents</a>
+                  </li>
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link"
+                      >New Property</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__info-item">
+                <div class="footer__info-title">Service</div>
+                <ul class="footer__info-list">
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link"
+                      >Payment & Tax</a
+                    >
+                  </li>
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link"
+                      >View Booking</a
+                    >
+                  </li>
+                  <li class="footer__info-list--item">
+                    <a href="#" class="footer__info-list--item-link"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__info-item">
+                <div class="footer__info-title">Our Location</div>
+                <p class="footer__info-locations">
+                  2972 Westheimer Rd. Santa Ana, Illinois 85486
+                </p>
+                <div class="footer__info-socials">
+                  <a href="#" class="footer__info-social--link"
+                    ><img
+                      src="images/facebook.svg"
+                      alt="facebook"
+                      class="footer__info-social"
+                  /></a>
+                  <a href="#" class="footer__info-social--link">
+                    <img
+                      src="images/twiter.svg"
+                      alt="twiter"
+                      class="footer__info-social"
+                  /></a>
+                  <a href="#" class="footer__info-social--link">
+                    <img
+                      src="images/in.svg"
+                      alt="in"
+                      class="footer__info-social"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copyright">
+            <p class="footer__copyright-info">
+              Copyright 2022 flora. All Rights Reserved
+            </p>
+            <div class="footer__copyright-links">
+              <a class="footer__copyright-link" href="#">Terms & Conditions</a>
+              <a class="footer__copyright-link" href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts/nouislider.min.js"></script>
+    <script src="scripts/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Agents</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="popup">
+        <img src="images/check-popup.svg" class="popup__check-img" />
+        <div class="popup__content">
+          <div class="popup__content-title">Request Submit Successfully</div>
+          <div class="popup__content-descr">
+            Your request for villa site visit is submitted successfully
+          </div>
+          <button class="popup__content-btn">Done</button>
+        </div>
+      </div>
+      <div class="popup-background"></div>
+      <div class="container">
+        <div class="header__items">
+          <a href="index.html" class="header__logo-inner">
+            <img src="images/logo.svg" alt="logo" class="header__logo" />
+          </a>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="index.html" class="header__menu-item--li">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="about.html" class="header__menu-item--li">About Us</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="properties.html" class="header__menu-item--li"
+                >Properties</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a href="agents.html" class="header__menu-item--li">Agents</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="contacts.html" class="header__menu-item--li"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <div class="header__burger-button">
+            <span class="header__burger-button_lines"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="product">
+      <div class="product__item">
+        <img class="product__img" src="" />
+        <div class="container">
+          <div class="product__gallery-items">
+            <div class="product__gallery-item">
+              <a data-fslightbox="gallery" href="images/product-gall-1.jpg"
+                ><img
+                  class="product__gallery-item__img"
+                  src="images/product-gall-1.jpg"
+                  width="210px"
+                  height="125"
+              /></a>
+            </div>
+            <div class="product__gallery-item">
+              <a data-fslightbox="gallery" href="images/product-gall-2.jpg">
+                <img
+                  class="product__gallery-item__img"
+                  src="images/product-gall-2.jpg"
+                  width="210px"
+                  height="125"
+                />
+              </a>
+            </div>
+            <div class="product__gallery-item">
+              <a data-fslightbox="gallery" href="images/product-gall-3.jpg">
+                <img
+                  class="product__gallery-item__img"
+                  src="images/product-gall-3.jpg"
+                  width="210px"
+                  height="125"
+                />
+              </a>
+            </div>
+            <div class="product__gallery-item">
+              <a data-fslightbox="gallery" href="images/product-gall-4.jpg">
+                <img
+                  class="product__gallery-item__img"
+                  src="images/product-gall-4.jpg"
+                  width="210px"
+                  height="125"
+                />
+              </a>
+            </div>
+            <div class="product__gallery-item">
+              <a data-fslightbox="gallery" href="images/product-gall-5.jpg">
+                <img
+                  class="product__gallery-item__img"
+                  src="images/product-gall-5.jpg"
+                  width="210px"
+                  height="125"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="product__details">
+            <div class="product__details-main">
+              <h1 class="product__details-title"></h1>
+              <div class="product__details-address">
+                <img
+                  src="images/map-icon.svg"
+                  class="product__details-address__icon"
+                />
+                3891 Ranchview Dr. Richardson, California 62639
+              </div>
+              <div class="product__details-price"></div>
+              <div class="product__details-stick"></div>
+            </div>
+
+            <div class="product__info">
+              <div class="product__info-descr">
+                <div class="product__info-descr__title">Descriptions</div>
+                <p class="product__info-descr__text">
+                  Its is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at
+                  its layout. The point of using Lorem Ipsum is that it has a
+                  more-or-less normal distribution of letters, as opposed to
+                  using 'Content here, content here', making it look like
+                  readable English. Many desktop publishing packages and web
+                  page editors now use Lorem Ipsum as their default model text,
+                  and a search for 'lorem ipsum' will uncover many web sites
+                  still in their infancy.<br />
+                  Various versions have evolved over the years, sometimes by
+                  accident, sometimes on purpose (injected humour and the like).
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing hidden in the middle of text. All the Lorem Ipsum
+                  generators on the Internet tend to repeat predefined chunks as
+                  necessary, making this the first true generator on the
+                  Internet.<br />
+                  It uses a dictionary of over 200 Latin words, combined with a
+                  handful of model sentence structures, to generate Lorem Ipsum
+                  which looks reasonable. The generated Lorem Ipsum is therefore
+                  always free from repetition, injected humour, or
+                  non-characteristic words etc.
+                </p>
+                <div class="product__details-stick"></div>
+
+                <div class="product__info-descr__details">
+                  <div class="product__info-descr__details-title">Details</div>
+                  <div class="product__info-descr__details-items">
+                    <div class="product__info-descr__details-item">
+                      Dimensions:
+                      <div
+                        class="product__info-descr__details-value dimensions"
+                      ></div>
+                    </div>
+                    <div class="product__info-descr__details-item">
+                      Carpet Area (sqft):
+                      <div
+                        class="product__info-descr__details-value area"
+                      ></div>
+                    </div>
+                    <div class="product__info-descr__details-item">
+                      Built Year:
+                      <div
+                        class="product__info-descr__details-value year"
+                      ></div>
+                    </div>
+                    <div class="product__info-descr__details-item">
+                      Bedrooms:
+                      <div
+                        class="product__info-descr__details-value bedroom"
+                      ></div>
+                    </div>
+                    <div class="product__info-descr__details-item">
+                      Bathrooms:
+                      <div
+                        class="product__info-descr__details-value bathroom"
+                      ></div>
+                    </div>
+                    <div class="product__info-descr__details-item">
+                      Property Category:
+                      <div
+                        class="product__info-descr__details-value categories"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="product__details-stick"></div>
+                </div>
+              </div>
+              <div class="product__info-call">
+                <div class="product__info-call__title">Agent Details</div>
+                <div class="product__info-call__agent">
+                  <img src="" class="product__info-call__agent-img" />
+                  <div class="product__info-call__agent-info">
+                    <div class="product__info-call__agent-name"></div>
+                    <div class="product__info-call__agent-position">
+                      Real Estate Agent
+                    </div>
+                  </div>
+                </div>
+                <form
+                  id="form2"
+                  action="#"
+                  class="contacts__form product__contacts-form"
+                >
+                  <div class="contacts__form-item">
+                    <label for="#" class="contacts__form-label">Name</label>
+                    <input
+                      type="text"
+                      id="username"
+                      class="contacts__form-input"
+                      placeholder="Enter Your Name"
+                    />
+                    <div class="error"></div>
+                  </div>
+                  <div class="contacts__form-item">
+                    <label for="#" class="contacts__form-label">Email</label>
+                    <input
+                      type="text"
+                      id="email"
+                      class="contacts__form-input"
+                      placeholder="Enter Your Email"
+                    />
+                    <div class="error"></div>
+                  </div>
+                  <div class="contacts__form-item">
+                    <label for="#" class="contacts__form-label"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="text"
+                      id="phone"
+                      class="contacts__form-input"
+                      placeholder="Enter Phone Number"
+                    />
+                    <div class="error"></div>
+                  </div>
+                  <div class="contacts__form-item">
+                    <label for="#" class="contacts__form-label">Message</label>
+                    <textarea
+                      cols="30"
+                      rows="10"
+                      class="contacts__form-textarea"
+                      placeholder="Enter Your Message"
+                    ></textarea>
+                  </div>
+                  <button class="contacts__form-btn">Send Enquiry</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__items">
+          <div class="footer__logo-info">
+            <img src="images/footer-logo.svg" alt="logo" class="footer__logo" />
+            <p class="footer__logo-descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+              tempus felis vitae sit est quisque.
+            </p>
+          </div>
+          <div class="footer__info-items">
+            <div class="footer__info-item">
+              <div class="footer__info-title">About</div>
+              <ul class="footer__info-list">
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">About Us</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">Blog</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">Agents</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >New Property</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info-item">
+              <div class="footer__info-title">Service</div>
+              <ul class="footer__info-list">
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >Payment & Tax</a
+                  >
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link">Features</a>
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >View Booking</a
+                  >
+                </li>
+                <li class="footer__info-list--item">
+                  <a href="#" class="footer__info-list--item-link"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info-item">
+              <div class="footer__info-title">Our Location</div>
+              <p class="footer__info-locations">
+                2972 Westheimer Rd. Santa Ana, Illinois 85486
+              </p>
+              <div class="footer__info-socials">
+                <a href="#" class="footer__info-social--link"
+                  ><img
+                    src="images/facebook.svg"
+                    alt="facebook"
+                    class="footer__info-social"
+                /></a>
+                <a href="#" class="footer__info-social--link">
+                  <img
+                    src="images/twiter.svg"
+                    alt="twiter"
+                    class="footer__info-social"
+                /></a>
+                <a href="#" class="footer__info-social--link">
+                  <img src="images/in.svg" alt="in" class="footer__info-social"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright-info">
+            Copyright 2022 flora. All Rights Reserved
+          </p>
+          <div class="footer__copyright-links">
+            <a class="footer__copyright-link" href="#">Terms & Conditions</a>
+            <a class="footer__copyright-link" href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
